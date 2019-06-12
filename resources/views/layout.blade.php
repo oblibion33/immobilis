@@ -24,7 +24,7 @@
     </head>
     <body>
         <div>
-            @yield('content');
+            @yield('content')
         </div>
     </body>
 </html>

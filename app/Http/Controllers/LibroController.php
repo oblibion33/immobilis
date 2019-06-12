@@ -39,7 +39,7 @@ class LibroController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request,['titulo'=>'required','autor'=>'required']);
+        $this->validate($request,['titulo'=>'required','autor'=>'required','editorial'=>'required']);
         Libro::create($request->all());
         return redirect()->route('libro.index')->with('sucess','Registro creado');
     }

@@ -22,6 +22,11 @@
         
     </div>
     
+    <div class="form-group">
+        <input type="text" name="editorial" id="editorial" class="form-control" value="">
+        
+    </div>
+    
     <input type="submit" value="Crear" class="btn btn-success">
     <a href="{{route('libro.index')}}" class="btn btn-info">Volver</a>
 </form>
